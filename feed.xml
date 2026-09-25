@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='utf-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
+  <channel>
+    <title>Blogcast — NutritionFacts &amp; Decent Espresso</title>
+    <link>https://omerr.github.io/blogcast</link>
+    <description>New posts from NutritionFacts.org and the Decent Espresso blog, read aloud. Automatically generated; every episode links to the original article.</description>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 24 Sep 2026 12:00:48 +0000</lastBuildDate>
+    <generator>digest-engine</generator>
+    <atom:link href="https://omerr.github.io/blogcast/feed.xml" rel="self" type="application/rss+xml" />
+    <itunes:author>Omer Rosenbaum</itunes:author>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://omerr.github.io/blogcast/cover.png" />
+    <image>
+      <url>https://omerr.github.io/blogcast/cover.png</url>
+      <title>Blogcast — NutritionFacts &amp; Decent Espresso</title>
+      <link>https://omerr.github.io/blogcast</link>
+    </image>
+    <item>
+      <title>NutritionFacts · Chemotherapy Is Expensive—Is It Effective?</title>
+      <description>NutritionFacts (2026-09-24)
+
+Most chemotherapy drugs are approved by the U.S. Food and Drug Administration (FDA) without evidence that they benefit survival or quality of life. By 2030, […]
+
+Original: https://nutritionfacts.org/blog/chemotherapy-is-expensive-is-it-effective/</description>
+      <itunes:summary>NutritionFacts (2026-09-24)
+
+Most chemotherapy drugs are approved by the U.S. Food and Drug Administration (FDA) without evidence that they benefit survival or quality of life. By 2030, […]
+
+Original: https://nutritionfacts.org/blog/chemotherapy-is-expensive-is-it-effective/</itunes:summary>
+      <pubDate>Thu, 24 Sep 2026 12:00:48 +0000</pubDate>
+      <guid isPermaLink="false">blogcast-chemotherapy-is-expensive-is-it-effective-8231c2</guid>
+      <enclosure url="https://omerr.github.io/blogcast/audio/blogcast-chemotherapy-is-expensive-is-it-effective-8231c2.mp3" length="2097792" type="audio/mpeg" />
+      <itunes:duration>00:05:49</itunes:duration>
+      <itunes:episode>12</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+      <podcast:episodeType>full</podcast:episodeType>
+      <link>https://nutritionfacts.org/blog/chemotherapy-is-expensive-is-it-effective/</link>
+    </item>
+    <item>
+      <title>NutritionFacts · How Many Minutes of Life Does a Burger Cost?</title>
+      <description>NutritionFacts (2026-09-22)
+
+If you care about your health so much that it would be unthinkable to light up a cigarette before and after lunch, maybe you should …
+
+Original: https://nutritionfacts.org/blog/how-many-minutes-of-life-does-a-burger-cost/</description>
+      <itunes:summary>NutritionFacts (2026-09-22)
+
+If you care about your health so much that it would be unthinkable to light up a cigarette before and after lunch, maybe you should …
+
+Original: https://nutritionfacts.org/blog/how-many-minutes-of-life-does-a-burger-cost/</itunes:summary>
+      <pubDate>Tue, 22 Sep 2026 12:00:31 +0000</pubDate>
+      <guid isPermaLink="false">blogcast-how-many-minutes-of-life-does-a-burger-cost-612dd1</guid>
+      <enclosure url="https://omerr.github.io/blogcast/audio/blogcast-how-many-minutes-of-life-does-a-burger-cost-612dd1.mp3" length="2546208" type="audio/mpeg" />
+      <itunes:duration>00:07:04</itunes:duration>
+      <itunes:episode>2</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+      <podcast:episodeType>full</podcast:episodeType>
+      <link>https://nutritionfacts.org/blog/how-many-minutes-of-life-does-a-burger-cost/</link>
+    </item>
+    <item>
+      <title>Decent Espresso · Bengle's upcoming infrared milk probe</title>
+      <description>Decent Espresso (2026-09-21)
+
+Tthe infrared milk sensor that will fit on Bengle can read the temperature of the milk without being immersed in it. Steam can auto-stop at the temperature you want, there's very little cleanup, and the steam wand remains pro and easy to move, unlike steam wands that embed a temperature probe in the wand itself.
+
+Original: https://decentespresso.com/blog/bengles_upcoming_infrared_milk_probe</description>
+      <itunes:summary>Decent Espresso (2026-09-21)
+
+Tthe infrared milk sensor that will fit on Bengle can read the temperature of the milk without being immersed in it. Steam can auto-stop at the temperature you want, there's very little cleanup, and the steam wand remains pro and easy to move, unlike steam wands that embed a temperature probe in the wand itself.
+
+Original: https://decentespresso.com/blog/bengles_upcoming_infrared_milk_probe</itunes:summary>
+      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">blogcast-bengles-upcoming-infrared-milk-probe-d9bb4e</guid>
+      <enclosure url="https://omerr.github.io/blogcast/audio/blogcast-bengles-upcoming-infrared-milk-probe-d9bb4e.mp3" length="313776" type="audio/mpeg" />
+      <itunes:duration>00:00:52</itunes:duration>
+      <itunes:episode>1</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+      <podcast:episodeType>full</podcast:episodeType>
+      <link>https://decentespresso.com/blog/bengles_upcoming_infrared_milk_probe</link>
+    </item>
+    <item>
+      <title>NutritionFacts · How Big Meat Distorted the Evidence</title>
+      <description>NutritionFacts (2026-09-17)
+
+Big Meat downplays the magnitude of meat mortality. A series of studies published in the Annals of Internal Medicine found a statistically significant association between […]
+
+Original: https://nutritionfacts.org/blog/how-big-meat-distorted-the-evidence/</description>
+      <itunes:summary>NutritionFacts (2026-09-17)
+
+Big Meat downplays the magnitude of meat mortality. A series of studies published in the Annals of Internal Medicine found a statistically significant association between […]
+
+Original: https://nutritionfacts.org/blog/how-big-meat-distorted-the-evidence/</itunes:summary>
+      <pubDate>Thu, 17 Sep 2026 12:00:10 +0000</pubDate>
+      <guid isPermaLink="false">blogcast-how-big-meat-distorted-the-evidence-5d4cee</guid>
+      <enclosure url="https://omerr.github.io/blogcast/audio/blogcast-how-big-meat-distorted-the-evidence-5d4cee.mp3" length="3564432" type="audio/mpeg" />
+      <itunes:duration>00:09:54</itunes:duration>
+      <itunes:episode>11</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+      <podcast:episodeType>full</podcast:episodeType>
+      <link>https://nutritionfacts.org/blog/how-big-meat-distorted-the-evidence/</link>
+    </item>
+    <item>
+      <title>NutritionFacts · The Meat Papers Contradicted Their Own Data</title>
+      <description>NutritionFacts (2026-09-15)
+
+The meat industry’s own study concluded that meat consumption increased the risk of cancer, heart disease, diabetes, and premature death. A series of papers published […]
+
+Original: https://nutritionfacts.org/blog/the-meat-papers-contradicted-their-own-data/</description>
+      <itunes:summary>NutritionFacts (2026-09-15)
+
+The meat industry’s own study concluded that meat consumption increased the risk of cancer, heart disease, diabetes, and premature death. A series of papers published […]
+
+Original: https://nutritionfacts.org/blog/the-meat-papers-contradicted-their-own-data/</itunes:summary>
+      <pubDate>Tue, 15 Sep 2026 12:00:00 +0000</pubDate>
+      <guid isPermaLink="false">blogcast-the-meat-papers-contradicted-their-own-data-e449b2</guid>
+      <enclosure url="https://omerr.github.io/blogcast/audio/blogcast-the-meat-papers-contradicted-their-own-data-e449b2.mp3" length="2493936" type="audio/mpeg" />
+      <itunes:duration>00:06:55</itunes:duration>
+      <itunes:episode>10</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+      <podcast:episodeType>full</podcast:episodeType>
+      <link>https://nutritionfacts.org/blog/the-meat-papers-contradicted-their-own-data/</link>
+    </item>
+    <item>
+      <title>Decent Espresso · Bengle steaming a latte in 10 seconds.</title>
+      <description>Decent Espresso (2026-09-15)
+
+Bengle steaming a latte in ten seconds.
+
+Original: https://decentespresso.com/blog/bengle_steaming_a_latte_in_10_seconds</description>
+      <itunes:summary>Decent Espresso (2026-09-15)
+
+Bengle steaming a latte in ten seconds.
+
+Original: https://decentespresso.com/blog/bengle_steaming_a_latte_in_10_seconds</itunes:summary>
+      <pubDate>Tue, 15 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">blogcast-bengle-steaming-a-latte-in-10-seconds-61de57</guid>
+      <enclosure url="https://omerr.github.io/blogcast/audio/blogcast-bengle-steaming-a-latte-in-10-seconds-61de57.mp3" length="287712" type="audio/mpeg" />
+      <itunes:duration>00:00:47</itunes:duration>
+      <itunes:episode>9</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+      <podcast:episodeType>full</podcast:episodeType>
+      <link>https://decentespresso.com/blog/bengle_steaming_a_latte_in_10_seconds</link>
+    </item>
+    <item>
+      <title>NutritionFacts · The Many Conflicts of Interest Behind the Meat Studies</title>
+      <description>NutritionFacts (2026-09-10)
+
+The same person paid by Big Sugar to downplay the risks of sugar was paid by Big Meat to downplay the risks of meat. A […]
+
+Original: https://nutritionfacts.org/blog/the-many-conflicts-of-interest-behind-the-meat-studies/</description>
+      <itunes:summary>NutritionFacts (2026-09-10)
+
+The same person paid by Big Sugar to downplay the risks of sugar was paid by Big Meat to downplay the risks of meat. A […]
+
+Original: https://nutritionfacts.org/blog/the-many-conflicts-of-interest-behind-the-meat-studies/</itunes:summary>
+      <pubDate>Thu, 10 Sep 2026 12:00:51 +0000</pubDate>
+      <guid isPermaLink="false">blogcast-the-many-conflicts-of-interest-behind-the-meat-studies-254421</guid>
+      <enclosure url="https://omerr.github.io/blogcast/audio/blogcast-the-many-conflicts-of-interest-behind-the-meat-studies-254421.mp3" length="1946592" type="audio/mpeg" />
+      <itunes:duration>00:05:24</itunes:duration>
+      <itunes:episode>8</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+      <podcast:episodeType>full</podcast:episodeType>
+      <link>https://nutritionfacts.org/blog/the-many-conflicts-of-interest-behind-the-meat-studies/</link>
+    </item>
+    <item>
+      <title>NutritionFacts · Meat Studies Fail to Apply GRADE Properly</title>
+      <description>NutritionFacts (2026-09-08)
+
+The meat industry comes up with a perversion of evidence-based medicine. A series of articles published in the Annals of Internal Medicine culminated in a […]
+
+Original: https://nutritionfacts.org/blog/meat-studies-fail-to-apply-grade-properly/</description>
+      <itunes:summary>NutritionFacts (2026-09-08)
+
+The meat industry comes up with a perversion of evidence-based medicine. A series of articles published in the Annals of Internal Medicine culminated in a […]
+
+Original: https://nutritionfacts.org/blog/meat-studies-fail-to-apply-grade-properly/</itunes:summary>
+      <pubDate>Tue, 08 Sep 2026 12:00:32 +0000</pubDate>
+      <guid isPermaLink="false">blogcast-meat-studies-fail-to-apply-grade-properly-c2c187</guid>
+      <enclosure url="https://omerr.github.io/blogcast/audio/blogcast-meat-studies-fail-to-apply-grade-properly-c2c187.mp3" length="2743344" type="audio/mpeg" />
+      <itunes:duration>00:07:37</itunes:duration>
+      <itunes:episode>7</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+      <podcast:episodeType>full</podcast:episodeType>
+      <link>https://nutritionfacts.org/blog/meat-studies-fail-to-apply-grade-properly/</link>
+    </item>
+    <item>
+      <title>NutritionFacts · When Should We Rely on Observational Studies?</title>
+      <description>NutritionFacts (2026-09-03)
+
+How legitimate is the common corporate criticism of the scientific nutrition literature that the credibility of observational studies is questionable? While randomized controlled trials are […]
+
+Original: https://nutritionfacts.org/blog/when-should-we-rely-on-observational-studies/</description>
+      <itunes:summary>NutritionFacts (2026-09-03)
+
+How legitimate is the common corporate criticism of the scientific nutrition literature that the credibility of observational studies is questionable? While randomized controlled trials are […]
+
+Original: https://nutritionfacts.org/blog/when-should-we-rely-on-observational-studies/</itunes:summary>
+      <pubDate>Thu, 03 Sep 2026 12:00:52 +0000</pubDate>
+      <guid isPermaLink="false">blogcast-when-should-we-rely-on-observational-studies-5963c8</guid>
+      <enclosure url="https://omerr.github.io/blogcast/audio/blogcast-when-should-we-rely-on-observational-studies-5963c8.mp3" length="2605680" type="audio/mpeg" />
+      <itunes:duration>00:07:14</itunes:duration>
+      <itunes:episode>6</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+      <podcast:episodeType>full</podcast:episodeType>
+      <link>https://nutritionfacts.org/blog/when-should-we-rely-on-observational-studies/</link>
+    </item>
+    <item>
+      <title>NutritionFacts · Big Sugar Twists the Science behind the Dietary Guidelines</title>
+      <description>NutritionFacts (2026-09-01)
+
+How did Big Corn Syrup and other corporate sugar titans hijack the scientific process? In 2016, a Washington-based lobby group published a scientific review that […]
+
+Original: https://nutritionfacts.org/blog/big-sugar-twists-the-science-behind-the-dietary-guidelines/</description>
+      <itunes:summary>NutritionFacts (2026-09-01)
+
+How did Big Corn Syrup and other corporate sugar titans hijack the scientific process? In 2016, a Washington-based lobby group published a scientific review that […]
+
+Original: https://nutritionfacts.org/blog/big-sugar-twists-the-science-behind-the-dietary-guidelines/</itunes:summary>
+      <pubDate>Tue, 01 Sep 2026 12:00:31 +0000</pubDate>
+      <guid isPermaLink="false">blogcast-big-sugar-twists-the-science-behind-the-dietary-guidelines-dc5db0</guid>
+      <enclosure url="https://omerr.github.io/blogcast/audio/blogcast-big-sugar-twists-the-science-behind-the-dietary-guidelines-dc5db0.mp3" length="2318832" type="audio/mpeg" />
+      <itunes:duration>00:06:26</itunes:duration>
+      <itunes:episode>5</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+      <podcast:episodeType>full</podcast:episodeType>
+      <link>https://nutritionfacts.org/blog/big-sugar-twists-the-science-behind-the-dietary-guidelines/</link>
+    </item>
+    <item>
+      <title>NutritionFacts · The Corporate Playbook behind Undermining Dietary Guidelines</title>
+      <description>NutritionFacts (2026-08-27)
+
+International Life Sciences Institute, a nonprofit, is accused of being a front group for Coca-Cola and other junk food giants. In 2019, a series of […]
+
+Original: https://nutritionfacts.org/blog/the-corporate-playbook-behind-undermining-dietary-guidelines/</description>
+      <itunes:summary>NutritionFacts (2026-08-27)
+
+International Life Sciences Institute, a nonprofit, is accused of being a front group for Coca-Cola and other junk food giants. In 2019, a series of […]
+
+Original: https://nutritionfacts.org/blog/the-corporate-playbook-behind-undermining-dietary-guidelines/</itunes:summary>
+      <pubDate>Thu, 27 Aug 2026 12:00:28 +0000</pubDate>
+      <guid isPermaLink="false">blogcast-the-corporate-playbook-behind-undermining-dietary-guidelines-ce6273</guid>
+      <enclosure url="https://omerr.github.io/blogcast/audio/blogcast-the-corporate-playbook-behind-undermining-dietary-guidelines-ce6273.mp3" length="2298384" type="audio/mpeg" />
+      <itunes:duration>00:06:23</itunes:duration>
+      <itunes:episode>4</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+      <podcast:episodeType>full</podcast:episodeType>
+      <link>https://nutritionfacts.org/blog/the-corporate-playbook-behind-undermining-dietary-guidelines/</link>
+    </item>
+    <item>
+      <title>NutritionFacts · The Burden of Weight Bias</title>
+      <description>NutritionFacts (2026-08-25)
+
+Please note: This blog and its accompanying video discuss the important and troubling issue of weight bias and discrimination, which may be a sensitive topic […]
+
+Original: https://nutritionfacts.org/blog/the-burden-of-weight-bias/</description>
+      <itunes:summary>NutritionFacts (2026-08-25)
+
+Please note: This blog and its accompanying video discuss the important and troubling issue of weight bias and discrimination, which may be a sensitive topic […]
+
+Original: https://nutritionfacts.org/blog/the-burden-of-weight-bias/</itunes:summary>
+      <pubDate>Tue, 25 Aug 2026 12:00:30 +0000</pubDate>
+      <guid isPermaLink="false">blogcast-the-burden-of-weight-bias-3661bf</guid>
+      <enclosure url="https://omerr.github.io/blogcast/audio/blogcast-the-burden-of-weight-bias-3661bf.mp3" length="3242160" type="audio/mpeg" />
+      <itunes:duration>00:09:00</itunes:duration>
+      <itunes:episode>3</itunes:episode>
+      <itunes:explicit>false</itunes:explicit>
+      <podcast:episodeType>full</podcast:episodeType>
+      <link>https://nutritionfacts.org/blog/the-burden-of-weight-bias/</link>
+    </item>
+  </channel>
+</rss>
