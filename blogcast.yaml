@@ -1,8 +1,8 @@
 name: blogcast
 title: Blogcast
-description: Articles you choose, plus new posts from NutritionFacts.org and Decent
-  Espresso, read aloud. Automatically generated; every episode links to the original
-  article.
+description: Articles read aloud and original audio from videos you choose. Includes
+  new posts from NutritionFacts.org and Decent Espresso. Every episode links to its
+  source.
 author: Omer Rosenbaum
 submissions:
   server: https://ntfy.sh
