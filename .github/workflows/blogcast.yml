@@ -8,6 +8,10 @@ on:
         description: Test hosted speech and YouTube access
         type: boolean
         default: false
+      verify_only:
+        description: Check providers without changing the feed
+        type: boolean
+        default: false
 permissions:
   contents: write
   pages: write
@@ -51,6 +55,7 @@ jobs:
           yt-dlp --js-runtimes node --simulate --no-playlist 'https://www.youtube.com/watch?v=fF3lkTCM5-c'
       - name: Prepare episodes
         id: prepare
+        if: ${{ !inputs.verify_only }}
         run: python scripts/hosted.py prepare
       - name: Save queue and audio before deployment
         if: always() && steps.prepare.outcome != 'skipped'
