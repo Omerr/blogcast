@@ -50,7 +50,16 @@ jobs:
       - name: Install
         run: |
           pip install -e '.[extract,media]' pytest
-          command -v ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+      - name: Install FFmpeg
+        if: ${{ !inputs.verify_only }}
+        run: |
+          if ! command -v ffmpeg; then
+            if [[ "$RUNNER_OS" == "macOS" ]]; then
+              brew install ffmpeg
+            else
+              sudo apt-get update && sudo apt-get install -y ffmpeg
+            fi
+          fi
       - name: Tests
         run: python -m pytest -q
       - name: Hosted provider checks
