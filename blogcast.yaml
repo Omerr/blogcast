@@ -1,0 +1,68 @@
+name: blogcast
+title: Blogcast
+description: Articles you choose, plus new posts from NutritionFacts.org and Decent
+  Espresso, read aloud. Automatically generated; every episode links to the original
+  article.
+author: Omer Rosenbaum
+submissions:
+  server: https://ntfy.sh
+  topic: ''
+language: en-us
+cover_image: cover.png
+sources:
+- type: rss
+  group: NutritionFacts
+  priority: 0
+  url: https://nutritionfacts.org/blog/feed/
+- type: rss
+  group: Decent Espresso
+  priority: 0
+  url: https://fast.decentespresso.com/blog/decent_espresso_blog_en.rss
+  exclude: _(de|ar|kr|fr|es|zh|zh-hans|zh-hant|it|jp|ru|pt|nl|pl|tr)$
+format:
+  mode: full
+  per_item: true
+  title_prefix_group: true
+  min_words: 30
+  drop_patterns:
+  - ^\s*\w+ created \d{4}/\d{1,2}/\d{1,2}\.?\s*$
+  - ^\s*(Older|Newer):.*$
+  - ^\s*Pin It on Pinterest\s*$
+  - ^\s*Leave this field empty if you.re human:.*$
+  - ^\s*Subscribe to our free newsletter.*$
+curation:
+  model: ''
+  max_age_days: 30
+  urgent_threshold: 80
+  weekly_threshold: 55
+  full_length_threshold: 90
+  max_items_per_weekly: 8
+scrub:
+  enabled: false
+tts:
+  provider: edge
+  voice: en-US-AndrewMultilingualNeural
+  rate: +0%
+  words_per_minute: 155
+sinks:
+- podcast_rss
+publish:
+  repo: Omerr/blogcast
+  branch: gh-pages
+  retention: 80
+notify:
+  ntfy:
+    topic: ''
+    server: https://ntfy.sh
+    priority: 3
+    max_individual: 3
+feedback:
+  enabled: false
+  guidance: feedback/guidance.md
+paths:
+  output_dir: runtime
+  audio_dir: runtime/audio
+  feed_file: runtime/feed.xml
+  db_file: runtime/state.db
+  runs_dir: runtime/runs
+  site_dir: runtime/site

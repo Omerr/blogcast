@@ -1,0 +1,73 @@
+name: Blogcast
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+    inputs:
+      smoke:
+        description: Test hosted speech and YouTube access
+        type: boolean
+        default: false
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: blogcast
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    environment:
+      name: github-pages
+      url: https://omerr.github.io/blogcast/
+    env:
+      NTFY_SUBMISSION_TOPIC: ${{ secrets.NTFY_SUBMISSION_TOPIC }}
+      NTFY_NOTIFICATION_TOPIC: ${{ secrets.NTFY_NOTIFICATION_TOPIC }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4
+        with:
+          ref: state
+          path: runtime
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install
+        run: |
+          pip install -e '.[extract,media]' pytest
+          command -v ffmpeg || (sudo apt-get update && sudo apt-get install -y ffmpeg)
+      - name: Tests
+        run: python -m pytest -q
+      - name: Hosted provider checks
+        if: inputs.smoke
+        run: |
+          python -c "from digest_engine.tts import synthesize; synthesize('Blogcast cloud narration test.', '/tmp/smoke.mp3', {'provider':'edge'})"
+          yt-dlp --js-runtimes node --simulate --no-playlist 'https://www.youtube.com/watch?v=fF3lkTCM5-c'
+      - name: Prepare episodes
+        id: prepare
+        run: python scripts/hosted.py prepare
+      - name: Save queue and audio before deployment
+        if: always() && steps.prepare.outcome != 'skipped'
+        run: scripts/save-state.sh
+      - uses: actions/configure-pages@v5
+        if: steps.prepare.outputs.changed == 'true'
+      - uses: actions/upload-pages-artifact@v3
+        if: steps.prepare.outputs.changed == 'true'
+        with:
+          path: runtime/site
+      - name: Deploy podcast
+        id: deploy
+        if: steps.prepare.outputs.changed == 'true'
+        uses: actions/deploy-pages@v4
+      - name: Acknowledge requests and notify
+        if: success() && steps.prepare.outcome == 'success'
+        run: python scripts/hosted.py finalize
+      - name: Save acknowledgements
+        if: always() && steps.prepare.outcome == 'success'
+        run: scripts/save-state.sh

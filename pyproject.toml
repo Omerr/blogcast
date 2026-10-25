@@ -1,0 +1,27 @@
+[project]
+name = "digest-engine"
+version = "0.3.15"
+description = "Provider-agnostic engine that turns internet sources into audio/text digests."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "PyYAML>=6.0",
+    "feedparser>=6.0",
+    "litellm>=1.0",          # unified LLM + cloud TTS across 100+ providers
+    "edge-tts>=7.3.1",       # current Edge speech protocol
+]
+
+[project.optional-dependencies]
+extract = ["trafilatura>=1.9"]
+media = ["yt-dlp[default]>=2026.8.19"]
+social = ["ddgs>=6.0"]      # the `social` source type (X / LinkedIn posts via search)
+
+[project.scripts]
+digest = "digest_engine.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["digest_engine*"]
