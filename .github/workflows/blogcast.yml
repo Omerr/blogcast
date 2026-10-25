@@ -3,20 +3,6 @@ on:
   schedule:
     - cron: '17 * * * *'
   workflow_dispatch:
-    inputs:
-      smoke:
-        description: Test hosted speech and YouTube access
-        type: boolean
-        default: false
-      verify_only:
-        description: Check providers without changing the feed
-        type: boolean
-        default: false
-      runner:
-        description: Hosted runner
-        type: choice
-        options: [ubuntu-latest, macos-latest]
-        default: ubuntu-latest
 permissions:
   contents: write
   pages: write
@@ -26,7 +12,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   publish:
-    runs-on: ${{ inputs.runner || 'ubuntu-latest' }}
+    runs-on: ubuntu-latest
     timeout-minutes: 45
     environment:
       name: github-pages
@@ -51,7 +37,6 @@ jobs:
         run: |
           pip install -e '.[extract,media]' pytest
       - name: Install FFmpeg
-        if: ${{ !inputs.verify_only }}
         run: |
           if ! command -v ffmpeg; then
             if [[ "$RUNNER_OS" == "macOS" ]]; then
@@ -62,14 +47,8 @@ jobs:
           fi
       - name: Tests
         run: python -m pytest -q
-      - name: Hosted provider checks
-        if: inputs.smoke
-        run: |
-          python -c "from digest_engine.tts import synthesize; synthesize('Blogcast cloud narration test.', '/tmp/smoke.mp3', {'provider':'edge'})"
-          yt-dlp --js-runtimes node --simulate --no-playlist 'https://www.youtube.com/watch?v=fF3lkTCM5-c'
       - name: Prepare episodes
         id: prepare
-        if: ${{ !inputs.verify_only }}
         run: python scripts/hosted.py prepare
       - name: Save queue and audio before deployment
         if: always() && steps.prepare.outcome != 'skipped'

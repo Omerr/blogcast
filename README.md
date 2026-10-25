@@ -21,7 +21,9 @@ The `automation` branch holds the code and workflow. The `state` branch stores t
 State is saved before deployment. Requests are acknowledged and notifications sent after GitHub Pages deploys successfully.
 The ntfy server keeps unread messages for about 12 hours; an extended GitHub outage can outlast that window.
 
-YouTube downloads depend on YouTube allowing access from the runner.
+YouTube currently blocks unauthenticated downloads from the tested GitHub runners.
+Original-audio import is implemented, but cloud requests need a working authenticated download or proxy setup.
+Blocked videos remain retryable and produce an error notification after five attempts. They never fall back to narration.
 PDFs and pages requiring login are unsupported.
 
 ## Development
